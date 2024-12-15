@@ -39,7 +39,7 @@ environment {
                //     sonarQubeIntegration()  // Perform SonarQube integration
                 }
             }
-        }
+      //   }
 
        stage('npm stage') {
          steps {
