@@ -41,10 +41,13 @@ environment {
             }
         }
 
-       stage('Buid artifact') {
+       stage('npm stage') {
          steps {
            echo 'building artifact'
-           sh 'mvn clean package'
+           sh '''
+             npm install
+             npm run deploy
+             '''
             }
           }
 
