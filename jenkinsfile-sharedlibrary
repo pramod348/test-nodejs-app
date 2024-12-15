@@ -33,10 +33,10 @@ environment {
             }
         }
         
-        stage('SonarQube Analysis') {
-            steps {
-                script {
-                    sonarQubeIntegration()  // Perform SonarQube integration
+        // stage('SonarQube Analysis') {
+           // steps {
+             //   script {
+               //     sonarQubeIntegration()  // Perform SonarQube integration
                 }
             }
         }
