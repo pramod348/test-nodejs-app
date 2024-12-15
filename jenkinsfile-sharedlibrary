@@ -48,7 +48,7 @@ environment {
            echo 'building artifact'
            sh '''
              npm install
-             npm run deploy
+             npm test
              '''
             }
           }
