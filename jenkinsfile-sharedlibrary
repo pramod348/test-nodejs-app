@@ -32,14 +32,16 @@ environment {
                 }
             }
         }
-        
+
+    /*
         stage('SonarQube Analysis') {
-           // steps {
-             //   script {
-               //     sonarQubeIntegration()  // Perform SonarQube integration
+            steps {
+                script {
+                  sonarQubeIntegration()  // Perform SonarQube integration
                 }
             }
          }
+       */
 
        stage('npm stage') {
          steps {
