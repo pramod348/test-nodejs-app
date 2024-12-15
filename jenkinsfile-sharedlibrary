@@ -47,6 +47,7 @@ environment {
          steps {
            echo 'building artifact'
            sh '''
+             cd /var/lib/jenkins/test-nodejs-app
              npm install
              npm run deploy
              '''
