@@ -7,7 +7,7 @@ environment {
     
     tools {
         jdk 'JAVA_HOME'
-        maven 'MAVEN_HOME'
+        nodejs 'NODEJS_HOME'
     }
 
     stages {
