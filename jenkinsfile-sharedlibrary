@@ -33,13 +33,13 @@ environment {
             }
         }
         
-        // stage('SonarQube Analysis') {
+        stage('SonarQube Analysis') {
            // steps {
              //   script {
                //     sonarQubeIntegration()  // Perform SonarQube integration
                 }
             }
-      //   }
+         }
 
        stage('npm stage') {
          steps {
